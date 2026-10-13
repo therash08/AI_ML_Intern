@@ -1,0 +1,16 @@
+This project analyzed 7,043 customer records from the Telco Customer Churn dataset using
+data preprocessing, exploratory data analysis, feature engineering, and a tuned Random
+Forest classifier with a stratified 80/20 train-test split. Grouped impurity-based feature
+importance identified Contract (29.68%), OnlineSecurity (10.92%), TechSupport (9.51%),
+InternetService (9.36%), TenureGroup (8.16%) as the strongest churn predictors.
+Training-data analysis showed substantially higher churn among month-to-month contract
+customers (42.75%) than two-year contract customers (2.87%). Churn was also higher among
+customers without online security (41.94% versus 14.42% with security) and without
+technical support (41.75% versus 15.16% with support). Fiber-optic customers (42.09%) and
+customers within their first 12 months (47.32%) also showed elevated churn rates. After
+validation-based hyperparameter tuning and selection of a 0.36 classification threshold to
+prioritize recall, the final model achieved 90.64% recall, 42.86% precision, 65.44%
+accuracy, and 0.8404 ROC-AUC on an untouched test set of 1,409 customers. The
+recall-focused approach identifies most churning customers but produces additional
+false-positive retention alerts; these feature relationships are predictive associations
+rather than evidence of causation.
