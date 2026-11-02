@@ -1,1 +1,4 @@
 .venv/
+week_4/IMDB_Dataset.csv
+week_4/outputs/IMDB_Cleaned.csv
+week_4/outputs/IMDB_Preprocessed.csv
