@@ -2,3 +2,12 @@
 week_4/IMDB_Dataset.csv
 week_4/outputs/IMDB_Cleaned.csv
 week_4/outputs/IMDB_Preprocessed.csv
+.venv/
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+/week_4/outputs/preprocessed/train.csv
+/week_4/outputs/encoded_sequences/train_padded.npy
+/week_4/outputs/splits/train.csv

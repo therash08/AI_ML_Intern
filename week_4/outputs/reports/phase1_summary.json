@@ -1,0 +1,30 @@
+{
+    "project": "IMDB Customer Sentiment Analysis",
+    "framework": "PyTorch",
+    "random_seed": 42,
+    "total_cleaned_records": 49582,
+    "split_records": {
+        "train": 39665,
+        "validation": 4958,
+        "test": 4959
+    },
+    "label_distribution": {
+        "train": {
+            "positive": 19907,
+            "negative": 19758
+        },
+        "validation": {
+            "positive": 2488,
+            "negative": 2470
+        },
+        "test": {
+            "positive": 2489,
+            "negative": 2470
+        }
+    },
+    "cross_split_overlap": {
+        "train_validation": 0,
+        "train_test": 0,
+        "validation_test": 0
+    }
+}

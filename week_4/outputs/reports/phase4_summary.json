@@ -1,0 +1,25 @@
+{
+    "project": "IMDB Customer Sentiment Analysis",
+    "model_name": "IMDB_Embedding_MLP",
+    "framework": "PyTorch",
+    "device": "cuda",
+    "vocabulary_size": 30002,
+    "embedding_dimension": 128,
+    "hidden_dimension": 128,
+    "maximum_sequence_length": 298,
+    "padding_index": 0,
+    "total_parameters": 3856897,
+    "trainable_parameters": 3856897,
+    "layer_parameters": {
+        "embedding": 3840256,
+        "dense": 16512,
+        "output": 129
+    },
+    "padding_embedding_zero": true,
+    "forward_pass_verified": true,
+    "probability_range_verified": true,
+    "numerical_stability_verified": true,
+    "architecture_file_verified": true,
+    "sample_batch_loss": 0.6978954672813416,
+    "status": "COMPLETED"
+}

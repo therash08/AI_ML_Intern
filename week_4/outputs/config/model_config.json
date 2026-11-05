@@ -1,0 +1,12 @@
+{
+    "model_name": "IMDB_Embedding_MLP",
+    "vocab_size": 30002,
+    "embedding_dim": 128,
+    "hidden_dim": 128,
+    "dropout": 0.3,
+    "output_dim": 1,
+    "padding_idx": 0,
+    "max_sequence_length": 298,
+    "batch_size": 128,
+    "random_seed": 42
+}

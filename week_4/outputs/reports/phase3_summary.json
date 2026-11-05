@@ -1,0 +1,80 @@
+{
+    "project": "IMDB Customer Sentiment Analysis",
+    "framework": "PyTorch",
+    "vocabulary_size": 30002,
+    "maximum_sequence_length": 298,
+    "padding_index": 0,
+    "unknown_index": 1,
+    "label_mapping": {
+        "negative": 0,
+        "positive": 1
+    },
+    "datasets": {
+        "train": {
+            "reviews": 39665,
+            "retained_tokens": 4405761,
+            "padding_tokens": 7414409,
+            "total_batches": 310,
+            "dynamic_batches": 0,
+            "full_length_batches": 310,
+            "label_distribution": {
+                "negative": 19758,
+                "positive": 19907
+            },
+            "sequence_shape": [
+                39665,
+                298
+            ],
+            "data_type": "int64",
+            "saved_array_verified": true,
+            "dataloader_verified": true
+        },
+        "validation": {
+            "reviews": 4958,
+            "retained_tokens": 548239,
+            "padding_tokens": 929245,
+            "total_batches": 39,
+            "dynamic_batches": 0,
+            "full_length_batches": 39,
+            "label_distribution": {
+                "negative": 2470,
+                "positive": 2488
+            },
+            "sequence_shape": [
+                4958,
+                298
+            ],
+            "data_type": "int64",
+            "saved_array_verified": true,
+            "dataloader_verified": true
+        },
+        "test": {
+            "reviews": 4959,
+            "retained_tokens": 549111,
+            "padding_tokens": 928671,
+            "total_batches": 39,
+            "dynamic_batches": 0,
+            "full_length_batches": 39,
+            "label_distribution": {
+                "negative": 2470,
+                "positive": 2489
+            },
+            "sequence_shape": [
+                4959,
+                298
+            ],
+            "data_type": "int64",
+            "saved_array_verified": true,
+            "dataloader_verified": true
+        }
+    },
+    "summary": {
+        "total_reviews": 49582,
+        "total_retained_tokens": 5503111,
+        "total_batches": 388,
+        "dynamic_batches": 0,
+        "full_length_batches": 388,
+        "dynamic_padding_verified": true,
+        "status": "COMPLETED"
+    }
+}

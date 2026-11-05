@@ -1,0 +1,27 @@
+{
+    "project": "IMDB Customer Sentiment Analysis",
+    "framework": "PyTorch",
+    "device": "cuda:0",
+    "epochs_completed": 7,
+    "maximum_epochs": 10,
+    "best_epoch": 4,
+    "best_validation_loss": 0.2765648073128703,
+    "best_validation_accuracy": 0.8874546187979023,
+    "best_validation_precision": 0.8974464579901154,
+    "best_validation_recall": 0.8758038585209004,
+    "best_validation_f1_score": 0.8864930838079741,
+    "early_stopping_verified": true,
+    "optimizer_state_verified": true,
+    "scheduler_state_verified": true,
+    "checkpoint_hash_verified": true,
+    "restored_model_verified": true,
+    "padding_embedding_zero": true,
+    "model_parameters_finite": true,
+    "visualizations": {
+        "loss_curve.png": true,
+        "accuracy_curve.png": true,
+        "validation_metrics.png": true
+    },
+    "checkpoint_path": "D:\\Ai_Ml_intren\\week_4\\outputs\\checkpoints\\best_model.pt",
+    "status": "COMPLETED"
+}

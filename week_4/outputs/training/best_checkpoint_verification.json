@@ -1,0 +1,25 @@
+{
+    "model_name": "IMDB_Embedding_MLP",
+    "checkpoint_epoch": 4,
+    "best_validation_loss": 0.27656480731287036,
+    "loaded_validation_metrics": {
+        "loss": 0.27656480731287036,
+        "accuracy": 0.8874546187979023,
+        "precision": 0.8974464579901154,
+        "recall": 0.8758038585209004,
+        "f1_score": 0.8864930838079741
+    },
+    "metric_comparison": {
+        "loss": true,
+        "accuracy": true,
+        "precision": true,
+        "recall": true,
+        "f1_score": true
+    },
+    "optimizer_state_available": true,
+    "scheduler_state_available": true,
+    "all_parameters_finite": true,
+    "padding_embedding_zero": true,
+    "checkpoint_sha256": "5d75af3790ebe764dac058c4906262a3721e552db7349f524ebe3241ff4125dd",
+    "status": "VERIFIED"
+}

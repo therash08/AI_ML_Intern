@@ -1,0 +1,62 @@
+{
+    "train": {
+        "total_reviews": 39665,
+        "total_tokens": 4588474,
+        "missing_values": 0,
+        "duplicate_reviews": 0,
+        "empty_reviews": 0,
+        "label_distribution": {
+            "positive": 19907,
+            "negative": 19758
+        },
+        "original_review_match": true,
+        "cleaned_review_match": true,
+        "stemmed_review_match": true,
+        "token_count_match": true,
+        "file_size_mb": 124.35
+    },
+    "validation": {
+        "total_reviews": 4958,
+        "total_tokens": 568747,
+        "missing_values": 0,
+        "duplicate_reviews": 0,
+        "empty_reviews": 0,
+        "label_distribution": {
+            "positive": 2488,
+            "negative": 2470
+        },
+        "original_review_match": true,
+        "cleaned_review_match": true,
+        "stemmed_review_match": true,
+        "token_count_match": true,
+        "file_size_mb": 15.45
+    },
+    "test": {
+        "total_reviews": 4959,
+        "total_tokens": 571488,
+        "missing_values": 0,
+        "duplicate_reviews": 0,
+        "empty_reviews": 0,
+        "label_distribution": {
+            "positive": 2489,
+            "negative": 2470
+        },
+        "original_review_match": true,
+        "cleaned_review_match": true,
+        "stemmed_review_match": true,
+        "token_count_match": true,
+        "file_size_mb": 15.52
+    },
+    "summary": {
+        "project": "IMDB Customer Sentiment Analysis",
+        "preprocessing_method": "Snowball English Stemmer",
+        "total_reviews": 49582,
+        "total_stemmed_tokens": 5728709,
+        "cross_split_overlap": {
+            "Train-Validation": 0,
+            "Train-Test": 0,
+            "Validation-Test": 0
+        },
+        "status": "COMPLETED"
+    }
+}

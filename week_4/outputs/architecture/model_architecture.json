@@ -1,0 +1,36 @@
+{
+    "model_name": "IMDB_Embedding_MLP",
+    "architecture": "SentimentClassifier(\n  (embedding): Embedding(30002, 128, padding_idx=0)\n  (fc1): Linear(in_features=128, out_features=128, bias=True)\n  (relu): ReLU()\n  (dropout): Dropout(p=0.3, inplace=False)\n  (output_layer): Linear(in_features=128, out_features=1, bias=True)\n)",
+    "configuration": {
+        "model_name": "IMDB_Embedding_MLP",
+        "vocab_size": 30002,
+        "embedding_dim": 128,
+        "hidden_dim": 128,
+        "dropout": 0.3,
+        "output_dim": 1,
+        "padding_idx": 0,
+        "max_sequence_length": 298,
+        "batch_size": 128,
+        "random_seed": 42
+    },
+    "layers": {
+        "embedding": {
+            "total_parameters": 3840256,
+            "trainable_parameters": 3840256
+        },
+        "dense": {
+            "total_parameters": 16512,
+            "trainable_parameters": 16512
+        },
+        "output": {
+            "total_parameters": 129,
+            "trainable_parameters": 129
+        }
+    },
+    "total_parameters": 3856897,
+    "trainable_parameters": 3856897,
+    "non_trainable_parameters": 0,
+    "parameter_memory_mb": 14.71,
+    "device": "cuda:0",
+    "padding_embedding_zero": true
+}

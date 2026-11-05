@@ -1,0 +1,13 @@
+{
+    "model_name": "IMDB_Embedding_MLP",
+    "total_epochs_completed": 7,
+    "maximum_epochs": 10,
+    "best_epoch": 4,
+    "best_validation_loss": 0.27656480731287036,
+    "best_checkpoint": "D:\\Ai_Ml_intren\\week_4\\outputs\\checkpoints\\best_model.pt",
+    "early_stopping_patience": 3,
+    "total_training_time_seconds": 17.21,
+    "peak_gpu_memory_gb": 0.166,
+    "training_history": "training_history.csv",
+    "status": "COMPLETED"
+}
