@@ -1,0 +1,90 @@
+{
+    "project": "IMDB Customer Sentiment Analysis",
+    "framework": "PyTorch",
+    "model_name": "IMDB_Embedding_MLP",
+    "model_class": "SentimentClassifier",
+    "model_config": {
+        "model_name": "IMDB_Embedding_MLP",
+        "vocab_size": 30002,
+        "embedding_dim": 128,
+        "hidden_dim": 128,
+        "dropout": 0.3,
+        "output_dim": 1,
+        "padding_idx": 0,
+        "max_sequence_length": 298,
+        "batch_size": 128,
+        "random_seed": 42
+    },
+    "architecture": {
+        "embedding": "nn.Embedding",
+        "pooling": "padding_masked_mean",
+        "hidden_layer": "nn.Linear",
+        "activation": "ReLU",
+        "dropout": 0.3,
+        "output_layer": "nn.Linear",
+        "forward_output": "logits"
+    },
+    "preprocessing": {
+        "html_unescape": true,
+        "html_tag_pattern": "<[^>]+>",
+        "url_pattern": "https?://\\S+|www\\.\\S+",
+        "normalize_curly_apostrophes": true,
+        "lowercase": true,
+        "special_character_pattern": "[^a-z0-9'\\s]",
+        "whitespace_pattern": "\\s+",
+        "token_pattern": "[a-z]+(?:'[a-z]+)?|\\d+",
+        "stopword_source": "sklearn.feature_extraction.text.ENGLISH_STOP_WORDS",
+        "preserved_stopwords": [
+            "against",
+            "but",
+            "however",
+            "neither",
+            "never",
+            "no",
+            "nobody",
+            "none",
+            "nor",
+            "not",
+            "nothing",
+            "nowhere",
+            "only",
+            "too",
+            "very",
+            "without"
+        ],
+        "stemmer": "SnowballStemmer",
+        "stemmer_language": "english",
+        "skip_stemming_for_apostrophe_tokens": true
+    },
+    "sequence_encoding": {
+        "vocabulary_size": 30002,
+        "padding_token": "<PAD>",
+        "unknown_token": "<UNK>",
+        "padding_index": 0,
+        "unknown_index": 1,
+        "maximum_sequence_length": 298,
+        "truncation": "post",
+        "padding": "post",
+        "tensor_dtype": "torch.int64"
+    },
+    "classification": {
+        "task": "binary_sentiment_classification",
+        "label_mapping": {
+            "negative": 0,
+            "positive": 1
+        },
+        "positive_class": 1,
+        "probability_activation": "sigmoid",
+        "classification_threshold": 0.5,
+        "score_calibration": "not_verified"
+    },
+    "training_reference": {
+        "best_epoch": 4,
+        "selection_metric": "validation_loss",
+        "best_validation_loss": 0.27656480731287036
+    },
+    "files": {
+        "model_weights": "sentiment_model_weights.pt",
+        "vocabulary": "vocabulary.json"
+    }
+}

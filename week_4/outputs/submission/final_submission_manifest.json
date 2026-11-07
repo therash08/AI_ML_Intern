@@ -1,0 +1,309 @@
+{
+    "project": "IMDB Customer Sentiment Analysis",
+    "total_artifacts": 43,
+    "total_size_mb": 62.63,
+    "artifacts": [
+        {
+            "file": "notebook.ipynb",
+            "size_bytes": 892347,
+            "size_mb": 0.851,
+            "sha256": "8ad9e9baf7f1b303d1a8bdf2aec3b3c1e4c455bcf96f8be86b2654445892fc5c",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/reports/phase1_summary.json",
+            "size_bytes": 700,
+            "size_mb": 0.0007,
+            "sha256": "9fce1ec15f12746e02a7c8e689a24121d3fef2669a83796d0786c712c6d3d65b",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/reports/phase2_summary.json",
+            "size_bytes": 1823,
+            "size_mb": 0.0017,
+            "sha256": "4ae99500f769ddf419ef621c980b7f0d2d47cbe7136943305de9c25fd3defdaf",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/reports/phase3_summary.json",
+            "size_bytes": 2346,
+            "size_mb": 0.0022,
+            "sha256": "b80ec0d902df6c41701e24438d4481d58af8cb3d4d22314f3aad058bce650c62",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/reports/phase4_summary.json",
+            "size_bytes": 762,
+            "size_mb": 0.0007,
+            "sha256": "c459f89a7acf9525c7506c913d0373036a754b06b1740fa9d7b1e7d6c13f728a",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/reports/phase5_summary.json",
+            "size_bytes": 974,
+            "size_mb": 0.0009,
+            "sha256": "27f8e5352b3f530c9eb13387e8066b572b8d06f6bbc551b3b1f087c2fecd4c62",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/reports/phase6_summary.json",
+            "size_bytes": 1162,
+            "size_mb": 0.0011,
+            "sha256": "797f96c3e06f39a1164e7534fa4f66bf961a6af16107f5eea9800297ea238111",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/submission/artifact_manifest.csv",
+            "size_bytes": 4974,
+            "size_mb": 0.0047,
+            "sha256": "594217e523984bf6f6e74c10f88967fc4578b283147dc8aaf08e51b8d0946d9f",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/submission/artifact_manifest.json",
+            "size_bytes": 12416,
+            "size_mb": 0.0118,
+            "sha256": "f351485aba13f6a1a8f968c97672350aa67d370e63797bd8a9a0f7b614ab62e1",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/submission/notebook_validation_report.json",
+            "size_bytes": 1246,
+            "size_mb": 0.0012,
+            "sha256": "4008cc3a87f10c594aa092415ff99ee966023af3a059538e8f89158b74446ebe",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/submission/git_submission_status.json",
+            "size_bytes": 792,
+            "size_mb": 0.0008,
+            "sha256": "05ea0ce35eef614c134689fb43c96ac3bbc8543bde515c54ef72964678acb68b",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/submission/final_results_summary.json",
+            "size_bytes": 1151,
+            "size_mb": 0.0011,
+            "sha256": "b875eb722e0577f36b46b8e8475fd28a20c5ddad09297da3996b3d2a05915cbe",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/submission/final_results_summary.txt",
+            "size_bytes": 1049,
+            "size_mb": 0.001,
+            "sha256": "f44a5f6e359f5c39f69e4c65e36d966dde2dd4d08b58bc4facf4520a6c58932c",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/checkpoints/best_model.pt",
+            "size_bytes": 46290805,
+            "size_mb": 44.1464,
+            "sha256": "5d75af3790ebe764dac058c4906262a3721e552db7349f524ebe3241ff4125dd",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/vocabulary/vocabulary.json",
+            "size_bytes": 778759,
+            "size_mb": 0.7427,
+            "sha256": "55d2a99b1769d6092baddbd89795aed2da312eedde00d512e46e38cf83a00231",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/config/model_config.json",
+            "size_bytes": 268,
+            "size_mb": 0.0003,
+            "sha256": "8518f60d63c5bb498c804b8765782d01232f6dfd015ad96cf33e03339125eb06",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/config/training_config.json",
+            "size_bytes": 316,
+            "size_mb": 0.0003,
+            "sha256": "3ae3398abbf29a33c615a3bf4449e395e9fa23af81b516d8fc5429f7fa90577c",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/architecture/model_architecture.json",
+            "size_bytes": 1255,
+            "size_mb": 0.0012,
+            "sha256": "ca6719684848afcadb779f7fbad3fd7c41d0dd27a3eef2042c78bb93878927b4",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/training/training_history.csv",
+            "size_bytes": 1469,
+            "size_mb": 0.0014,
+            "sha256": "3efff951763cda31de4404a4246c597120d0793419ea3c2810fd94eb5ea228d7",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/training/training_summary.json",
+            "size_bytes": 455,
+            "size_mb": 0.0004,
+            "sha256": "081128716a46d3552d8748eb2429b9bbd3162608b67ab19f3426a57e38cdad3c",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/training/best_checkpoint_verification.json",
+            "size_bytes": 805,
+            "size_mb": 0.0008,
+            "sha256": "57efe8b2d4c2af5276b96ee2af5255b861680c75e8ed5601fdd676941c907f46",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/testing/test_predictions.csv",
+            "size_bytes": 272586,
+            "size_mb": 0.26,
+            "sha256": "72bee0b81bd04f2b38ff34805db815f0bdc0bbe8d1ff09e84ffb99ba602e02f2",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/testing/test_metrics.json",
+            "size_bytes": 572,
+            "size_mb": 0.0005,
+            "sha256": "34b431d240cc97733a6b80d65f5226b44efd6056a135cff76681f913fad3c42f",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/testing/confusion_matrix.csv",
+            "size_bytes": 92,
+            "size_mb": 0.0001,
+            "sha256": "ef0ff4f094b5a634e63b6d6f620fb54222c0fe3d901f527a16cb90f5c2fdeefe",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/testing/classification_report.csv",
+            "size_bytes": 423,
+            "size_mb": 0.0004,
+            "sha256": "1d2e1a7bde2dfe0ba37f9f2d1d3c8312ca4a669d3557b5177aab997d1f349af5",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/testing/classification_report.json",
+            "size_bytes": 1337,
+            "size_mb": 0.0013,
+            "sha256": "db36f7ebc8189862a35f3daec18e453e0109a6a447594057b590eaebaf2ec312",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/testing/roc_curve_data.csv",
+            "size_bytes": 41802,
+            "size_mb": 0.0399,
+            "sha256": "ee661338e1d4a6d92b5077ca81120a70badc5381fddcc7cc8c34cb0065f5bb1b",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/testing/roc_auc_report.json",
+            "size_bytes": 676,
+            "size_mb": 0.0006,
+            "sha256": "c3db68baffefbf391fc28d1f0301504f653eceda76abe6a5e3a9852e1d324475",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/testing/custom_predictions/custom_predictions.csv",
+            "size_bytes": 573,
+            "size_mb": 0.0005,
+            "sha256": "8ace7f551a41e49952b120a880ae73e20ef6cd744e775688373aea7c85b827ec",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/testing/custom_predictions/custom_predictions.json",
+            "size_bytes": 1244,
+            "size_mb": 0.0012,
+            "sha256": "7375fe864f7d40bb76e1a84b4736aab38b6fe99a8005d707073e105bd2f71d24",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/training/plots/loss_curve.png",
+            "size_bytes": 149133,
+            "size_mb": 0.1422,
+            "sha256": "246728b77cc05f452cd5354a21ea2cf97283111610d6de8da984c80aa149721e",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/training/plots/accuracy_curve.png",
+            "size_bytes": 153030,
+            "size_mb": 0.1459,
+            "sha256": "9aac288666a194ebca945007f4e6760b8e52a73705c4e800148d3fcbcfd9afc0",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/training/plots/validation_metrics.png",
+            "size_bytes": 192294,
+            "size_mb": 0.1834,
+            "sha256": "e9ad1a3cd2e3b6ab29f622fde9ab346737f8ea5f766b408d99dfcbd672aaae37",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/testing/plots/confusion_matrix.png",
+            "size_bytes": 86392,
+            "size_mb": 0.0824,
+            "sha256": "d9eeed330d510bcfb5269519e0218b3d3e9eec669402272f9ed2899fbebd3cdd",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/testing/plots/roc_curve.png",
+            "size_bytes": 165225,
+            "size_mb": 0.1576,
+            "sha256": "44c34ff6a2dd4c743f9e1a3ab66f5c43774a70f86cd65717b35d24d54692b9ce",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/submission/model_bundle/sentiment_model_weights.pt",
+            "size_bytes": 15430473,
+            "size_mb": 14.7156,
+            "sha256": "86048f5b7105c3ae7c24e6a81996a8a1735e87308112ed50c021d6f71a24d11a",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/submission/model_bundle/vocabulary.json",
+            "size_bytes": 778759,
+            "size_mb": 0.7427,
+            "sha256": "55d2a99b1769d6092baddbd89795aed2da312eedde00d512e46e38cf83a00231",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/submission/model_bundle/inference_config.json",
+            "size_bytes": 2736,
+            "size_mb": 0.0026,
+            "sha256": "0fe2ecd799479cfb6ce6eda976fdf08f41123370b766d90af74552249f594f17",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/submission/model_bundle/export_verification.json",
+            "size_bytes": 1293,
+            "size_mb": 0.0012,
+            "sha256": "ab1d1e10448441ef36e0172b28c946f1e650dfc7bbe6e68eee29a668c97fcffe",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/submission/model_bundle/independent_inference_verification.json",
+            "size_bytes": 757,
+            "size_mb": 0.0007,
+            "sha256": "ecc4eb6338d4bb814ec675aff91231bb922e9ac9df4b30f9f020c794648ff9dd",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/submission/model_bundle/independent_inference_predictions.csv",
+            "size_bytes": 527,
+            "size_mb": 0.0005,
+            "sha256": "5e297436cfa083c38101ce2b2684d6f2eb4457e68890bcf8f1f16911c66f8bf9",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/submission/screenshots/final_performance_summary.png",
+            "size_bytes": 165868,
+            "size_mb": 0.1582,
+            "sha256": "32e30ff6d8650f43d34f8fe38054883c4b7f976ce4c35291793e0f5ac9339b14",
+            "status": "PASS"
+        },
+        {
+            "file": "outputs/submission/screenshots/three_custom_predictions.png",
+            "size_bytes": 227738,
+            "size_mb": 0.2172,
+            "sha256": "0ae40d29aa48bd0095aecbe193b69aa5d0716e982e7c484a450ff2a13bd9cd45",
+            "status": "PASS"
+        }
+    ],
+    "status": "VERIFIED"
+}

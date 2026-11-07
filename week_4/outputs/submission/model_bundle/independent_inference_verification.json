@@ -1,0 +1,23 @@
+{
+    "project": "IMDB Customer Sentiment Analysis",
+    "phase": 7,
+    "cell": 3,
+    "model": "IMDB_Embedding_MLP",
+    "device": "cpu",
+    "checkpoint_dependency": false,
+    "total_parameters": 3856897,
+    "bundle_hash_verification": true,
+    "model_weights_verified": true,
+    "model_parameters_finite": true,
+    "padding_embedding_zero": true,
+    "preprocessing_test_samples_verified": 5,
+    "custom_predictions_verified": 3,
+    "sentiment_match": true,
+    "probability_match": true,
+    "predicted_class_score_match": true,
+    "token_count_match": true,
+    "unknown_token_count_match": true,
+    "maximum_probability_difference": 2.800369258704194e-08,
+    "probability_tolerance": 1e-05,
+    "status": "COMPLETED"
+}

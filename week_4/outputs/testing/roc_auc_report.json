@@ -1,0 +1,17 @@
+{
+    "model_name": "IMDB_Embedding_MLP",
+    "checkpoint_epoch": 4,
+    "total_test_samples": 4959,
+    "positive_class": 1,
+    "negative_class": 0,
+    "roc_auc": 0.9550298235312299,
+    "curve_auc": 0.9550298235312299,
+    "classification_threshold": 0.5,
+    "true_positive_rate_at_threshold": 0.8746484531940538,
+    "false_positive_rate_at_threshold": 0.10607287449392712,
+    "true_negative_rate_at_threshold": 0.8939271255060729,
+    "roc_curve_points": 828,
+    "roc_plot": "D:\\Ai_Ml_intren\\week_4\\outputs\\testing\\plots\\roc_curve.png",
+    "roc_data": "D:\\Ai_Ml_intren\\week_4\\outputs\\testing\\roc_curve_data.csv",
+    "status": "VERIFIED"
+}

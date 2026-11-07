@@ -1,0 +1,31 @@
+{
+    "project": "Automated Customer Sentiment Analysis",
+    "dataset": "IMDB Movie Reviews",
+    "framework": "PyTorch",
+    "model": "IMDB_Embedding_MLP",
+    "completed_phases": 6,
+    "current_phase": 7,
+    "best_checkpoint_epoch": 4,
+    "model_parameters": 3856897,
+    "vocabulary_size": 30002,
+    "maximum_sequence_length": 298,
+    "validation_accuracy": 0.8874546187979023,
+    "test_samples": 4959,
+    "test_loss": 0.27535153988220684,
+    "test_accuracy": 0.8842508570276265,
+    "test_precision": 0.8925789257892579,
+    "test_recall": 0.8746484531940538,
+    "test_f1_score": 0.8835227272727273,
+    "roc_auc": 0.9550298235312299,
+    "correct_predictions": 4385,
+    "incorrect_predictions": 574,
+    "custom_reviews_tested": 3,
+    "custom_predictions_matched": 3,
+    "independent_inference_verified": true,
+    "model_retraining": false,
+    "submission_images": [
+        "D:\\Ai_Ml_intren\\week_4\\outputs\\submission\\screenshots\\final_performance_summary.png",
+        "D:\\Ai_Ml_intren\\week_4\\outputs\\submission\\screenshots\\three_custom_predictions.png"
+    ],
+    "status": "COMPLETED"
+}

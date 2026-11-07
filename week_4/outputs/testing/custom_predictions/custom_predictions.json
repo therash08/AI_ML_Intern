@@ -1,0 +1,32 @@
+[
+    {
+        "review_id": 1,
+        "review": "I absolutely loved this movie. The acting was fantastic and the story kept me engaged from beginning to end.",
+        "expected_sentiment": "Positive",
+        "predicted_sentiment": "Positive",
+        "positive_probability": 0.9999575614929199,
+        "predicted_class_score": 0.9999575614929199,
+        "token_count": 10,
+        "unknown_token_count": 0
+    },
+    {
+        "review_id": 2,
+        "review": "This was a terrible movie. The plot was boring, the acting was awful, and I regret watching it.",
+        "expected_sentiment": "Negative",
+        "predicted_sentiment": "Negative",
+        "positive_probability": 4.350236490480164e-11,
+        "predicted_class_score": 1.0,
+        "token_count": 8,
+        "unknown_token_count": 0
+    },
+    {
+        "review_id": 3,
+        "review": "Although the film started slowly, I really enjoyed the characters and the ending was wonderful.",
+        "expected_sentiment": "Positive",
+        "predicted_sentiment": "Positive",
+        "positive_probability": 0.9997485280036926,
+        "predicted_class_score": 0.9997485280036926,
+        "token_count": 8,
+        "unknown_token_count": 0
+    }
+]

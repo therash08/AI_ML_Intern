@@ -1,0 +1,37 @@
+{
+    "project": "IMDB Customer Sentiment Analysis",
+    "framework": "PyTorch",
+    "phase": 6,
+    "best_checkpoint_epoch": 4,
+    "checkpoint_sha256_verified": true,
+    "total_test_samples": 4959,
+    "test_loss": 0.27535153988220684,
+    "test_accuracy": 0.8842508570276265,
+    "test_precision": 0.8925789257892579,
+    "test_recall": 0.8746484531940538,
+    "test_f1_score": 0.8835227272727273,
+    "correct_predictions": 4385,
+    "incorrect_predictions": 574,
+    "confusion_matrix": {
+        "true_negative": 2208,
+        "false_positive": 262,
+        "false_negative": 312,
+        "true_positive": 2177
+    },
+    "roc_auc": 0.9550298235312299,
+    "classification_threshold": 0.5,
+    "custom_reviews_tested": 3,
+    "custom_predictions_matched": 3,
+    "test_used_for_training": false,
+    "model_retraining": false,
+    "verification": {
+        "checkpoint": "PASS",
+        "test_metrics": "PASS",
+        "confusion_matrix": "PASS",
+        "classification_report": "PASS",
+        "roc_auc": "PASS",
+        "custom_predictions": "PASS",
+        "saved_outputs": "PASS"
+    },
+    "status": "COMPLETED"
+}

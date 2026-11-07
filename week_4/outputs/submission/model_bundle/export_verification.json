@@ -1,0 +1,37 @@
+{
+    "project": "IMDB Customer Sentiment Analysis",
+    "phase": 7,
+    "cell": 2,
+    "model_name": "IMDB_Embedding_MLP",
+    "source_checkpoint_epoch": 4,
+    "total_parameters": 3856897,
+    "source_checkpoint_sha256": "5d75af3790ebe764dac058c4906262a3721e552db7349f524ebe3241ff4125dd",
+    "model_weights_verified": true,
+    "vocabulary_verified": true,
+    "inference_configuration_verified": true,
+    "parameter_verification": {
+        "embedding.weight": true,
+        "fc1.weight": true,
+        "fc1.bias": true,
+        "output_layer.weight": true,
+        "output_layer.bias": true
+    },
+    "exported_files": {
+        "sentiment_model_weights.pt": {
+            "size_bytes": 15430473,
+            "sha256": "86048f5b7105c3ae7c24e6a81996a8a1735e87308112ed50c021d6f71a24d11a",
+            "verified": true
+        },
+        "vocabulary.json": {
+            "size_bytes": 778759,
+            "sha256": "55d2a99b1769d6092baddbd89795aed2da312eedde00d512e46e38cf83a00231",
+            "verified": true
+        },
+        "inference_config.json": {
+            "size_bytes": 2736,
+            "sha256": "0fe2ecd799479cfb6ce6eda976fdf08f41123370b766d90af74552249f594f17",
+            "verified": true
+        }
+    },
+    "status": "COMPLETED"
+}

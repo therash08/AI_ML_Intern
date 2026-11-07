@@ -1,0 +1,18 @@
+{
+    "model_name": "IMDB_Embedding_MLP",
+    "checkpoint_epoch": 4,
+    "dataset": "IMDB Test Dataset",
+    "total_samples": 4959,
+    "classification_threshold": 0.5,
+    "test_loss": 0.27535153988220684,
+    "accuracy": 0.8842508570276265,
+    "precision": 0.8925789257892579,
+    "recall": 0.8746484531940538,
+    "f1_score": 0.8835227272727273,
+    "correct_predictions": 4385,
+    "incorrect_predictions": 574,
+    "device": "cuda",
+    "model_selection_criterion": "validation_loss",
+    "test_used_for_training": false,
+    "status": "EVALUATED"
+}

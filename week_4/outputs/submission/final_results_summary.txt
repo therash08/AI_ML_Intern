@@ -1,0 +1,42 @@
+WEEK 4 - AUTOMATED SENTIMENT ANALYSIS
+FINAL PROJECT RESULTS SUMMARY
+
+Dataset: IMDB Movie Reviews
+Framework: PyTorch
+Model: IMDB_Embedding_MLP
+
+MODEL ARCHITECTURE
+Total Parameters: 3,856,897
+Vocabulary Size: 30,002
+Maximum Sequence Length: 298
+Best Training Epoch: 4
+
+VALIDATION PERFORMANCE
+Validation Accuracy: 88.75%
+
+FINAL TEST PERFORMANCE
+Test Samples: 4,959
+Test Loss: 0.2754
+Test Accuracy: 88.43%
+Test Precision: 89.26%
+Test Recall: 87.46%
+Test F1-Score: 88.35%
+ROC-AUC: 0.9550
+
+PREDICTION RESULTS
+Correct Predictions: 4,385
+Incorrect Predictions: 574
+Custom Reviews Tested: 3
+Expected Sentiment Matches: 3
+
+MODEL VERIFICATION
+Best Model Checkpoint: VERIFIED
+Exported Model Weights: VERIFIED
+Vocabulary and Preprocessing: VERIFIED
+Independent CPU Inference: VERIFIED
+Training Checkpoint Required for Inference: NO
+
+LIMITATIONS
+The model was trained and tested using IMDB movie reviews.
+Performance on other customer review domains is not established.
+Prediction probabilities have not been calibrated.

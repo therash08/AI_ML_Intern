@@ -1,0 +1,296 @@
+{
+    "project": "IMDB Customer Sentiment Analysis",
+    "internship_week": 4,
+    "phase": 7,
+    "cell": 1,
+    "completed_phases": {
+        "Phase 1": "COMPLETED",
+        "Phase 2": "COMPLETED",
+        "Phase 3": "COMPLETED",
+        "Phase 4": "COMPLETED",
+        "Phase 5": "COMPLETED",
+        "Phase 6": "COMPLETED"
+    },
+    "total_verified_files": 30,
+    "missing_files": [],
+    "empty_files": [],
+    "total_artifact_size_mb": 73.12,
+    "checkpoint_sha256_verified": true,
+    "final_test_accuracy": 0.8842508570276265,
+    "final_test_f1_score": 0.8835227272727273,
+    "final_roc_auc": 0.9550298235312299,
+    "custom_predictions_matched": 3,
+    "artifacts": [
+        {
+            "category": "Notebook",
+            "relative_path": "notebook.ipynb",
+            "file_name": "notebook.ipynb",
+            "file_size_bytes": 427765,
+            "file_size_mb": 0.4079,
+            "sha256": "18ad62282d3c764fd6d0aa896415c2f6eee9c546a40921c576daf87101103d54",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Model & Configuration",
+            "relative_path": "outputs/checkpoints/best_model.pt",
+            "file_name": "best_model.pt",
+            "file_size_bytes": 46290805,
+            "file_size_mb": 44.1464,
+            "sha256": "5d75af3790ebe764dac058c4906262a3721e552db7349f524ebe3241ff4125dd",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Model & Configuration",
+            "relative_path": "outputs/vocabulary/vocabulary.json",
+            "file_name": "vocabulary.json",
+            "file_size_bytes": 778759,
+            "file_size_mb": 0.7427,
+            "sha256": "55d2a99b1769d6092baddbd89795aed2da312eedde00d512e46e38cf83a00231",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Model & Configuration",
+            "relative_path": "outputs/config/model_config.json",
+            "file_name": "model_config.json",
+            "file_size_bytes": 268,
+            "file_size_mb": 0.0003,
+            "sha256": "8518f60d63c5bb498c804b8765782d01232f6dfd015ad96cf33e03339125eb06",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Model & Configuration",
+            "relative_path": "outputs/config/training_config.json",
+            "file_name": "training_config.json",
+            "file_size_bytes": 316,
+            "file_size_mb": 0.0003,
+            "sha256": "3ae3398abbf29a33c615a3bf4449e395e9fa23af81b516d8fc5429f7fa90577c",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Model & Configuration",
+            "relative_path": "outputs/architecture/model_architecture.json",
+            "file_name": "model_architecture.json",
+            "file_size_bytes": 1255,
+            "file_size_mb": 0.0012,
+            "sha256": "ca6719684848afcadb779f7fbad3fd7c41d0dd27a3eef2042c78bb93878927b4",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Phase Reports",
+            "relative_path": "outputs/reports/phase1_summary.json",
+            "file_name": "phase1_summary.json",
+            "file_size_bytes": 700,
+            "file_size_mb": 0.0007,
+            "sha256": "9fce1ec15f12746e02a7c8e689a24121d3fef2669a83796d0786c712c6d3d65b",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Phase Reports",
+            "relative_path": "outputs/reports/phase2_summary.json",
+            "file_name": "phase2_summary.json",
+            "file_size_bytes": 1823,
+            "file_size_mb": 0.0017,
+            "sha256": "4ae99500f769ddf419ef621c980b7f0d2d47cbe7136943305de9c25fd3defdaf",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Phase Reports",
+            "relative_path": "outputs/reports/phase3_summary.json",
+            "file_name": "phase3_summary.json",
+            "file_size_bytes": 2346,
+            "file_size_mb": 0.0022,
+            "sha256": "b80ec0d902df6c41701e24438d4481d58af8cb3d4d22314f3aad058bce650c62",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Phase Reports",
+            "relative_path": "outputs/reports/phase4_summary.json",
+            "file_name": "phase4_summary.json",
+            "file_size_bytes": 762,
+            "file_size_mb": 0.0007,
+            "sha256": "c459f89a7acf9525c7506c913d0373036a754b06b1740fa9d7b1e7d6c13f728a",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Phase Reports",
+            "relative_path": "outputs/reports/phase5_summary.json",
+            "file_name": "phase5_summary.json",
+            "file_size_bytes": 974,
+            "file_size_mb": 0.0009,
+            "sha256": "27f8e5352b3f530c9eb13387e8066b572b8d06f6bbc551b3b1f087c2fecd4c62",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Phase Reports",
+            "relative_path": "outputs/reports/phase6_summary.json",
+            "file_name": "phase6_summary.json",
+            "file_size_bytes": 1162,
+            "file_size_mb": 0.0011,
+            "sha256": "797f96c3e06f39a1164e7534fa4f66bf961a6af16107f5eea9800297ea238111",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Dataset Artifacts",
+            "relative_path": "outputs/preprocessed/test.csv",
+            "file_name": "test.csv",
+            "file_size_bytes": 16271061,
+            "file_size_mb": 15.5173,
+            "sha256": "6a864cde233a504b9483a995d56469e07fa81a1abfba0bf423946de648c9961a",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Dataset Artifacts",
+            "relative_path": "outputs/encoded_sequences/test_padded.npy",
+            "file_name": "test_padded.npy",
+            "file_size_bytes": 11822384,
+            "file_size_mb": 11.2747,
+            "sha256": "ebdd5d5a9cac55ee2c983c2fe752c3def42ca3a5452d6d5b90d699cabbdcc0a8",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Training Artifacts",
+            "relative_path": "outputs/training/training_history.csv",
+            "file_name": "training_history.csv",
+            "file_size_bytes": 1469,
+            "file_size_mb": 0.0014,
+            "sha256": "3efff951763cda31de4404a4246c597120d0793419ea3c2810fd94eb5ea228d7",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Training Artifacts",
+            "relative_path": "outputs/training/training_summary.json",
+            "file_name": "training_summary.json",
+            "file_size_bytes": 455,
+            "file_size_mb": 0.0004,
+            "sha256": "081128716a46d3552d8748eb2429b9bbd3162608b67ab19f3426a57e38cdad3c",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Training Artifacts",
+            "relative_path": "outputs/training/best_checkpoint_verification.json",
+            "file_name": "best_checkpoint_verification.json",
+            "file_size_bytes": 805,
+            "file_size_mb": 0.0008,
+            "sha256": "57efe8b2d4c2af5276b96ee2af5255b861680c75e8ed5601fdd676941c907f46",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Testing Artifacts",
+            "relative_path": "outputs/testing/test_predictions.csv",
+            "file_name": "test_predictions.csv",
+            "file_size_bytes": 272586,
+            "file_size_mb": 0.26,
+            "sha256": "72bee0b81bd04f2b38ff34805db815f0bdc0bbe8d1ff09e84ffb99ba602e02f2",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Testing Artifacts",
+            "relative_path": "outputs/testing/test_metrics.json",
+            "file_name": "test_metrics.json",
+            "file_size_bytes": 572,
+            "file_size_mb": 0.0005,
+            "sha256": "34b431d240cc97733a6b80d65f5226b44efd6056a135cff76681f913fad3c42f",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Testing Artifacts",
+            "relative_path": "outputs/testing/confusion_matrix.csv",
+            "file_name": "confusion_matrix.csv",
+            "file_size_bytes": 92,
+            "file_size_mb": 0.0001,
+            "sha256": "ef0ff4f094b5a634e63b6d6f620fb54222c0fe3d901f527a16cb90f5c2fdeefe",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Testing Artifacts",
+            "relative_path": "outputs/testing/classification_report.json",
+            "file_name": "classification_report.json",
+            "file_size_bytes": 1337,
+            "file_size_mb": 0.0013,
+            "sha256": "db36f7ebc8189862a35f3daec18e453e0109a6a447594057b590eaebaf2ec312",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Testing Artifacts",
+            "relative_path": "outputs/testing/roc_curve_data.csv",
+            "file_name": "roc_curve_data.csv",
+            "file_size_bytes": 41802,
+            "file_size_mb": 0.0399,
+            "sha256": "ee661338e1d4a6d92b5077ca81120a70badc5381fddcc7cc8c34cb0065f5bb1b",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Testing Artifacts",
+            "relative_path": "outputs/testing/roc_auc_report.json",
+            "file_name": "roc_auc_report.json",
+            "file_size_bytes": 676,
+            "file_size_mb": 0.0006,
+            "sha256": "c3db68baffefbf391fc28d1f0301504f653eceda76abe6a5e3a9852e1d324475",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Custom Predictions",
+            "relative_path": "outputs/testing/custom_predictions/custom_predictions.csv",
+            "file_name": "custom_predictions.csv",
+            "file_size_bytes": 573,
+            "file_size_mb": 0.0005,
+            "sha256": "8ace7f551a41e49952b120a880ae73e20ef6cd744e775688373aea7c85b827ec",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Custom Predictions",
+            "relative_path": "outputs/testing/custom_predictions/custom_predictions.json",
+            "file_name": "custom_predictions.json",
+            "file_size_bytes": 1244,
+            "file_size_mb": 0.0012,
+            "sha256": "7375fe864f7d40bb76e1a84b4736aab38b6fe99a8005d707073e105bd2f71d24",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Visualizations",
+            "relative_path": "outputs/training/plots/loss_curve.png",
+            "file_name": "loss_curve.png",
+            "file_size_bytes": 149133,
+            "file_size_mb": 0.1422,
+            "sha256": "246728b77cc05f452cd5354a21ea2cf97283111610d6de8da984c80aa149721e",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Visualizations",
+            "relative_path": "outputs/training/plots/accuracy_curve.png",
+            "file_name": "accuracy_curve.png",
+            "file_size_bytes": 153030,
+            "file_size_mb": 0.1459,
+            "sha256": "9aac288666a194ebca945007f4e6760b8e52a73705c4e800148d3fcbcfd9afc0",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Visualizations",
+            "relative_path": "outputs/training/plots/validation_metrics.png",
+            "file_name": "validation_metrics.png",
+            "file_size_bytes": 192294,
+            "file_size_mb": 0.1834,
+            "sha256": "e9ad1a3cd2e3b6ab29f622fde9ab346737f8ea5f766b408d99dfcbd672aaae37",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Visualizations",
+            "relative_path": "outputs/testing/plots/confusion_matrix.png",
+            "file_name": "confusion_matrix.png",
+            "file_size_bytes": 86392,
+            "file_size_mb": 0.0824,
+            "sha256": "d9eeed330d510bcfb5269519e0218b3d3e9eec669402272f9ed2899fbebd3cdd",
+            "status": "VERIFIED"
+        },
+        {
+            "category": "Visualizations",
+            "relative_path": "outputs/testing/plots/roc_curve.png",
+            "file_name": "roc_curve.png",
+            "file_size_bytes": 165225,
+            "file_size_mb": 0.1576,
+            "sha256": "44c34ff6a2dd4c743f9e1a3ab66f5c43774a70f86cd65717b35d24d54692b9ce",
+            "status": "VERIFIED"
+        }
+    ],
+    "status": "VERIFIED"
+}

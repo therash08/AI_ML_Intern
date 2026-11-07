@@ -1,0 +1,88 @@
+{
+    "project": "IMDB Customer Sentiment Analysis",
+    "internship_week": 4,
+    "framework": "PyTorch",
+    "model_name": "IMDB_Embedding_MLP",
+    "project_status": "COMPLETED_LOCALLY",
+    "completed_phases": 7,
+    "phase_verification": {
+        "Phase 1": "PASS",
+        "Phase 2": "PASS",
+        "Phase 3": "PASS",
+        "Phase 4": "PASS",
+        "Phase 5": "PASS",
+        "Phase 6": "PASS",
+        "Phase 7 Cell 1": "PASS",
+        "Phase 7 Cell 2": "PASS",
+        "Phase 7 Cell 3": "PASS",
+        "Phase 7 Cell 4": "PASS",
+        "Phase 7 Cell 5": "PASS"
+    },
+    "dataset": {
+        "total_reviews": 49582,
+        "train_reviews": 39665,
+        "validation_reviews": 4958,
+        "test_reviews": 4959,
+        "vocabulary_size": 30002,
+        "maximum_sequence_length": 298
+    },
+    "model": {
+        "total_parameters": 3856897,
+        "best_epoch": 4,
+        "checkpoint_integrity": true,
+        "independent_inference_verified": true
+    },
+    "validation_performance": {
+        "accuracy": 0.8874546187979023,
+        "f1_score": 0.8864930838079741,
+        "loss": 0.2765648073128703
+    },
+    "test_performance": {
+        "loss": 0.27535153988220684,
+        "accuracy": 0.8842508570276265,
+        "precision": 0.8925789257892579,
+        "recall": 0.8746484531940538,
+        "f1_score": 0.8835227272727273,
+        "roc_auc": 0.9550298235312299,
+        "correct_predictions": 4385,
+        "incorrect_predictions": 574
+    },
+    "custom_predictions": {
+        "total": 3,
+        "matched": 3
+    },
+    "notebook": {
+        "file": "D:\\Ai_Ml_intren\\week_4\\notebook.ipynb",
+        "total_cells": 49,
+        "code_cells": 49,
+        "markdown_cells": 0,
+        "saved_errors": 0,
+        "sha256": "8ad9e9baf7f1b303d1a8bdf2aec3b3c1e4c455bcf96f8be86b2654445892fc5c"
+    },
+    "submission_images": {
+        "final_performance_summary.png": {
+            "width": 2375,
+            "height": 1537,
+            "verified": true
+        },
+        "three_custom_predictions.png": {
+            "width": 3475,
+            "height": 2207,
+            "verified": true
+        }
+    },
+    "artifact_manifest": {
+        "csv": "D:\\Ai_Ml_intren\\week_4\\outputs\\submission\\final_submission_manifest.csv",
+        "json": "D:\\Ai_Ml_intren\\week_4\\outputs\\submission\\final_submission_manifest.json",
+        "total_files": 43,
+        "total_size_mb": 62.63
+    },
+    "github_publication": {
+        "status": "PENDING",
+        "remote_sync_verified": false,
+        "local_changes": 5,
+        "large_files": [],
+        "pending_action": "Resolve files at or above 100 MB and push verified submission files to GitHub."
+    },
+    "status": "COMPLETED"
+}

@@ -1,0 +1,42 @@
+{
+    "project": "IMDB Customer Sentiment Analysis",
+    "phase": 7,
+    "cell": 5,
+    "notebook_name": "notebook.ipynb",
+    "notebook_format": 4,
+    "total_cells": 49,
+    "code_cells": 49,
+    "markdown_cells": 0,
+    "invalid_cells": [],
+    "saved_error_outputs": [],
+    "phase_milestones": {
+        "Phase 5 Training": true,
+        "Phase 6 Test Evaluation": true,
+        "Phase 6 Custom Predictions": true,
+        "Phase 6 Final Verification": true,
+        "Phase 7 Cell 1": true,
+        "Phase 7 Cell 2": true,
+        "Phase 7 Cell 3": true,
+        "Phase 7 Cell 4": true
+    },
+    "missing_milestones": [],
+    "notebook_sha256": "8ad9e9baf7f1b303d1a8bdf2aec3b3c1e4c455bcf96f8be86b2654445892fc5c",
+    "image_verification": {
+        "final_performance_summary.png": {
+            "width": 2375,
+            "height": 1537,
+            "size_mb": 0.158,
+            "verified": true
+        },
+        "three_custom_predictions.png": {
+            "width": 3475,
+            "height": 2207,
+            "size_mb": 0.217,
+            "verified": true
+        }
+    },
+    "final_metrics_verified": true,
+    "submission_files_verified": 10,
+    "issues": [],
+    "status": "VERIFIED"
+}

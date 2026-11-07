@@ -1,0 +1,4 @@
+review_id,review,predicted_sentiment,positive_probability,predicted_class_score,token_count,unknown_token_count
+1,I absolutely loved this movie. The acting was fantastic and the story kept me engaged from beginning to end.,Positive,0.99995756,0.99995756,10,0
+2,"This was a terrible movie. The plot was boring, the acting was awful, and I regret watching it.",Negative,4.3502365e-11,1.0,8,0
+3,"Although the film started slowly, I really enjoyed the characters and the ending was wonderful.",Positive,0.9997485,0.9997485,8,0

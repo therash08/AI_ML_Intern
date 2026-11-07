@@ -1,0 +1,25 @@
+{
+    "git_available": true,
+    "repository_root": "D:/Ai_Ml_intren",
+    "current_branch": "main",
+    "local_commit": "65515d6c",
+    "origin_remote_configured": true,
+    "local_changes_count": 5,
+    "local_changes_preview": [
+        "M week_4/notebook.ipynb",
+        "?? week_4/notebook_recovered.ipynb",
+        "?? week_4/outputs/reports/phase6_summary.json",
+        "?? week_4/outputs/submission/",
+        "?? week_4/outputs/testing/"
+    ],
+    "commits_ahead_of_local_origin_main": "0",
+    "commits_behind_local_origin_main": "0",
+    "files_at_or_above_100_mb": [
+        {
+            "file": "outputs\\preprocessed\\train.csv",
+            "size_mb": 124.35
+        }
+    ],
+    "live_github_sync_verified": false,
+    "status": "LOCAL_CHECK_ONLY"
+}
