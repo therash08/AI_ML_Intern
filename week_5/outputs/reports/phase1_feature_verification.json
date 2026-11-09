@@ -1,0 +1,43 @@
+{
+    "raw_features_count": 19,
+    "engineered_features_count": 3,
+    "total_model_features": 22,
+    "raw_feature_names": [
+        "gender",
+        "SeniorCitizen",
+        "Partner",
+        "Dependents",
+        "tenure",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod",
+        "MonthlyCharges",
+        "TotalCharges"
+    ],
+    "engineered_feature_names": [
+        "EstimatedLifetimeBilling",
+        "TenureGroup",
+        "NumAddOnServices"
+    ],
+    "engineered_values": {
+        "EstimatedLifetimeBilling": 382.0,
+        "TenureGroup": "New Customers (0-12)",
+        "NumAddOnServices": 2
+    },
+    "model_input_shape": [
+        1,
+        22
+    ],
+    "feature_order_verified": true,
+    "missing_values": 0,
+    "status": "PASS"
+}

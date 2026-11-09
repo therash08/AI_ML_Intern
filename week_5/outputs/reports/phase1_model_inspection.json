@@ -1,0 +1,45 @@
+{
+    "model_file": "model_v1.joblib",
+    "model_type": "sklearn.pipeline.Pipeline",
+    "model_size_kb": 438.92,
+    "package_keys": [
+        "model",
+        "threshold",
+        "feature_names",
+        "sklearn_version",
+        "pandas_version"
+    ],
+    "classification_threshold": 0.36,
+    "total_features": 22,
+    "feature_names": [
+        "gender",
+        "SeniorCitizen",
+        "Partner",
+        "Dependents",
+        "tenure",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod",
+        "MonthlyCharges",
+        "TotalCharges",
+        "EstimatedLifetimeBilling",
+        "TenureGroup",
+        "NumAddOnServices"
+    ],
+    "model_input_features": 22,
+    "model_classes": [
+        0,
+        1
+    ],
+    "predict_proba_available": true,
+    "status": "VERIFIED"
+}

@@ -1,0 +1,70 @@
+{
+    "project": "Crack404 AI/ML Internship - Week 5",
+    "phase": "Phase 1 - Project Setup and Model Verification",
+    "python_version": "3.12.10",
+    "python_executable": "d:\\Ai_Ml_intren\\.venv\\Scripts\\python.exe",
+    "package_versions": {
+        "fastapi": "0.162.2",
+        "uvicorn": "0.54.0",
+        "pydantic": "2.14.3",
+        "joblib": "1.6.0",
+        "scikit-learn": "1.9.1",
+        "pandas": "3.0.6",
+        "numpy": "2.5.4"
+    },
+    "model_file": "D:\\Ai_Ml_intren\\week_2\\model_v1.joblib",
+    "model_type": "Pipeline",
+    "classification_threshold": 0.36,
+    "total_model_features": 22,
+    "raw_features": 19,
+    "engineered_features": 3,
+    "prediction_probability": 0.8300956497735957,
+    "prediction_label": "Churn",
+    "total_checks": 24,
+    "passed_checks": 24,
+    "failed_checks": 0,
+    "checks": {
+        "Virtual Environment": true,
+        "Project Directory": true,
+        "Output Directory": true,
+        "Report Directory": true,
+        "Test Directory": true,
+        "Joblib Model": true,
+        "Pickle Model": true,
+        "Prediction Script": true,
+        "Required Dependencies": true,
+        "Model Package": true,
+        "Model Prediction Method": true,
+        "Model Feature Count": true,
+        "Model Feature Order": true,
+        "Model Input Dimension": true,
+        "Model Classification Threshold": true,
+        "Model Classes": true,
+        "Cell 3 Inspection": true,
+        "Cell 4 Feature Engineering": true,
+        "Cell 5 Prediction": true,
+        "Raw Features": true,
+        "Engineered Features": true,
+        "Prediction Probability": true,
+        "Prediction Label": true,
+        "Prediction Reproducibility": true
+    },
+    "training_formula_evidence": [
+        {
+            "file": "D:\\Ai_Ml_intren\\week_1\\notebook.ipynb",
+            "error": "[Errno 13] Permission denied: 'D:\\\\Ai_Ml_intren\\\\week_1\\\\notebook.ipynb'"
+        },
+        {
+            "file": "week_2\\notebook.ipynb",
+            "cell": 3,
+            "code": "df[\"EstimatedLifetimeBilling\"] = (\n    df[\"MonthlyCharges\"] * df[\"tenure\"]\n)"
+        }
+    ],
+    "training_formula_review": "PASS",
+    "status": "PASS",
+    "week2_training_formula_verified": true,
+    "week2_prediction_formula_verified": true,
+    "training_prediction_formula_consistent": true,
+    "week1_notebook_review": "NOT VERIFIED - ACCESS ERROR",
+    "phase1_completion_status": "PASS"
+}

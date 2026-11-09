@@ -1,0 +1,19 @@
+{
+    "model_file": "model_v1.joblib",
+    "total_features": 22,
+    "input_shape": [
+        1,
+        22
+    ],
+    "churn_probability": 0.8300956497735957,
+    "churn_probability_percent": 83.01,
+    "expected_probability_percent": 83.01,
+    "classification_threshold": 0.36,
+    "prediction": 1,
+    "prediction_label": "Churn",
+    "probability_match": true,
+    "threshold_match": true,
+    "prediction_match": true,
+    "feature_order_match": true,
+    "status": "PASS"
+}
